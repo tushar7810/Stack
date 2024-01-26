@@ -46,6 +46,6 @@ void infixToPostfix(string s){
 }
 int main(){
     string exp = "a+b*(c^d-e)^(f+g*h)-i";
-    infixToPostfix(exp);
+    infixToPostfix(exp); // Postfix Expression is abcd^e-fgh*+^*+i-
     return 0;
 }
