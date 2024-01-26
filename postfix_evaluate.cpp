@@ -1,23 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-// #define size 20
-// int st[size] ,top = -1;
-// void push(int val){
-//     if(top >= size -1) {
-//         cout<<"Stack Overflow"<<endl;
-//     }
-//     else{
-//         st[++top] = val;
-//     }
-// }
-// int pop(){
-//     if(top<0) cout<<"Underflow";
-//     else{
-//         int item = st[top];
-//         top--;
-//         return item;
-//     }
-// }
 int Evalpost(string exp){
     int a,b;
     char ch;
@@ -48,6 +30,6 @@ int Evalpost(string exp){
 }
 int main(){
     string exp = "231*+9-";
-    cout<< Evalpost(exp);
+    cout<< Evalpost(exp); // Evaluatae value is -4
     return 0;
 }
