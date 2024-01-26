@@ -60,5 +60,6 @@ int main(){
     string s = "a+b*(c^d-e)^(f+g*h)-i" ; //("(p+q)*(c-d)");
     cout<<"Infix Expression : "<< s <<endl;
     cout<<"Prefix Expression : "<< infixToPrefix(s) <<endl;
+    // Prefix Expression is : -+a*b^-^cde+f*ghi
     return 0;
 }
