@@ -52,3 +52,9 @@ int main(){
 
     return 0;
 }
+
+
+// To run this code type 'g++ Stack.cpp'
+//  and for compile './a.out'
+
+//then  enter 1,2 or 3 as your wish to push,pop and display respectively
